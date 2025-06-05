@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 25px;
+}
+
+.message {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.button-edit, .button-delete, .button-cancel, input[type="submit"] {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px 5px 5px 0; /* Top Right Bottom Left */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 0.9em;
+}
+
+.button-edit {
+    background-color: #ffc107;
+    color: #333;
+}
+.button-edit:hover {
+    background-color: #e0a800;
+    transform: translateY(-1px);
+}
+
+.button-delete {
+    background-color: #dc3545;
+}
+.button-delete:hover {
+    background-color: #c82333;
+    transform: translateY(-1px);
+}
+
+.button-cancel {
+    background-color: #6c757d;
+}
+.button-cancel:hover {
+    background-color: #5a6268;
+    transform: translateY(-1px);
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: calc(100% - 24px); /* Adjust for padding and border */
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-size: 1em;
+}
+
+/* Garis pemisah */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 40px 0;
+}
